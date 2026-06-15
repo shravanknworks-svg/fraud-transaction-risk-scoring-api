@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      USE_IN_MEMORY_DB: "true"
+      MONGODB_URI: "mongodb://mongodb:27017"
+      MONGODB_DB: "fraud_risk_db"
+  mongodb:
+    image: mongo:7
+    ports:
+      - "27017:27017"
