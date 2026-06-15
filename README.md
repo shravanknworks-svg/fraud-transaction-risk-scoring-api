@@ -54,7 +54,7 @@ http://localhost:8000/docs
 ## Run Tests
 
 ```bash
-PYTHONPATH=. bittest
+PYTHONPATH=. python -m pytest
 ```
 ## Sample Use Case
 
