@@ -93,4 +93,5 @@ This project simulates how financial institutions score transactions based on fr
   ]
 }
 ```
-
+## Author
+Shravan K Nellutla
