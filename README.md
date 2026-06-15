@@ -1,6 +1,6 @@
 # Fraud Transaction Risk Scoring API
 
-A FinTech-focused Python FastAPI project that evaluates transaction fraud risk using rule-based scoring. This project is designed for GitHub portfolio use for Java/Spring Boot, Python, MongoDB, cloud, and banking/fintech job searches.
+A FinTech-focused Fraud Transaction Risk Scoring API built with Python and FastAPI. This project evaluates financial transactions using rule-based risk scoring and returns fraud decisions such as APPROVE, REVIEW, or DECLINE.
 
 ## Features
 
@@ -54,8 +54,11 @@ http://localhost:8000/docs
 ## Run Tests
 
 ```bash
-PYTHONPATH=. pytest
+PYTHONPATH=. bittest
 ```
+## Sample Use Case
+
+This project simulates how financial institutions score transactions based on fraud indicators such as transaction amount, location, merchant category, frequency, and customer behavior.
 
 ## Sample Request
 
